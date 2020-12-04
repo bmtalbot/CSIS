@@ -43,6 +43,8 @@ jobs:
       run: staphb-tk --update
     - name: testing tool action - spades
       run: staphb-tk spades
+    - name: testing tool action - ivar
+      run: staphb-tk ivar
     #Work in progress to try out the monroe pipeline with test data
     - name: test Monroe pipeline cluster analysis
       run: staphb-wf monroe cluster_analysis pangolin_test 
