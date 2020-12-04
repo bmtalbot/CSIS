@@ -37,8 +37,6 @@ jobs:
       run: staphb-tk --help
     - name: test version
       run: staphb-tk --version
-    - name: nonsense option test 
-      run: ! staphb-tk --doesnotexist
     #Work in progress to try out the monroe pipeline with test data
     - name: test Monroe pipeline cluster analysis
       run: staphb-wf monroe cluster_analysis pangolin_test 
