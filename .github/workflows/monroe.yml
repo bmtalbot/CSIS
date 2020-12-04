@@ -46,5 +46,6 @@ jobs:
     - name: testing tool action - ivar
       run: staphb-tk ivar
     #Work in progress to try out the monroe pipeline with test data
+    - uses: actions/checkout@v2
     - name: test Monroe pipeline cluster analysis
       run: staphb-wf monroe cluster_analysis pangolin_test 
